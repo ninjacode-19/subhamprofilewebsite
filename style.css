@@ -730,7 +730,8 @@ h3.title{
     }
 
     .home-img{
-        display: none;
+        /* display: none; */
+        height: 300px;
     }
 }
 @media(max-width:767px){
@@ -748,9 +749,23 @@ h3.title{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
+    .home-img img{
+        /* display: none; */
+        height: 300px;
+    }
+    .about-content .personal-info .info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* margin-left: 0; */
+    }
+    .portfolio-item-inner .portfolio-img img{
+        width: 100%;
+        display: block;
+        height: 70%;
+    }
+
+
+
 
 }
-
-
-
-
